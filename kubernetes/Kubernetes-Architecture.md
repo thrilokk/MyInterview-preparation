@@ -2,7 +2,7 @@ Kubernetes architecture follows a client-server model with two main components:
 - Control Plane
 - Worker Nodes
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 **Control Plane**
 
