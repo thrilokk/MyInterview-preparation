@@ -1,0 +1,7 @@
+# sample pod yaml
+
+# these four top-level properties
+apiVersion: v1
+kind:
+metadata:
+spec:
