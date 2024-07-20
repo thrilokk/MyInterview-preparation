@@ -19,3 +19,28 @@
 - And changed the name in demo2.yaml file and created new pod using kubectl create -f demo2.yaml
 
 ![alt text](image-2.png) ![alt text](image-3.png)
+
+- Task3
+Apply the below YAML and fix the errors, including all the commands that you run during the troubleshooting and the error message
+
+
+```YAML
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: test
+  name: redis
+spec:
+  containers:
+  - image: rediss
+    name: redis
+```
+based on above code my pod is unable to create and its telling ErrImagePull
+- ![alt text](image-4.png)
+
+- In Yaml code the image naming is mistake "rediss" need to change it to "redis"
+![alt text](image-5.png)
+
+and now pod started and runing 
+![alt text](image-6.png)
